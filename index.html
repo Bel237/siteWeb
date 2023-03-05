@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BelTravel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"> <span>Bel</span> Travel</a>
+      </div>
+      <ul class="menu">
+        <li><a href="#">Acceuil</a></li>
+        <li><a href="#a-propos">à propos</a></li>
+        <li><a href="#popular-destination">destinations</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+      <a href="#" class="btn-reservation">Réserver Maintenant</a>
+
+      <div class="responsive-menu"></div>
+    </header>
+    <!-- acceuil section -->
+    <section id="home">
+      <h2>Par où commencer?</h2>
+      <h4>Séjourner Au Cameroun</h4>
+      <p>
+        Bienvenue au Cameroun, un pays situé en Afrique centrale avec une
+        diversité culturelle et géographique incroyable. Avec plus de 250
+        groupes ethniques et une grande variété de paysages, le Cameroun offre
+        une expérience unique pour les voyageurs en quête d'aventure et de
+        découvertes.
+      </p>
+
+      <a href="#" class="btn-reservation home-btn">Réserver Maintenant</a>
+      <div class="find_trip">
+        <form action="">
+          <div>
+            <label>Pays</label>
+            <input type="text" placeholder="Entrez un Pays" />
+          </div>
+          <div>
+            <label>Ville</label>
+            <input type="text" placeholder="Entrez une ville" />
+          </div>
+          <div>
+            <label>Région</label>
+            <input type="text" placeholder="Entrez une région" />
+          </div>
+          <input type="submit" value="voir" />
+        </form>
+      </div>
+    </section>
+
+    <!-- A propos section -->
+    <section id="a-propos">
+      <h1 class="title">à propos</h1>
+      <div class="img-desc">
+        <div class="left">
+          <video width="640" height="360" controls autoplay loop>
+            <source src="images/video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="right">
+          <h3>
+            Nous vous faisons découvrir le Cameroun dans toute sa splendeur.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Quaerat ipsam officiis
+            atque, doloremque eos reprehenderit deleniti ipsum dicta aliquid .
+          </p>
+          <a href="#">Lire Plus</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- section destination -->
+    <section id="popular-destination">
+      <h1 class="title">destinations populaires</h1>
+      <div class="content">
+        <!-- box -->
+        <div class="box">
+          <img src="images/kribi.jpg" alt="" />
+          <div class="content">
+            <div>
+              <h4>Kribi</h4>
+              <div>
+                <p>
+                  Kribi est une ville située sur la côte atlantique du Cameroun,
+                  dans la région du Sud. Elle est connue pour ses plages de
+                  sable blanc, sa baie naturelle et son port de pêche animé. La
+                  ville est entourée de forêts tropicales luxuriantes et de
+                  plantations de bananes.
+                </p>
+
+                <p id="more-text-1" style="display: none">
+                  Kribi est une destination touristique populaire, en
+                  particulier pour ceux qui cherchent à se détendre sur la
+                  plage, à faire de la plongée sous-marine ou à observer les
+                  tortues de mer.
+                </p>
+                <button class="read-more-btn" data-target="more-text-1">
+                  Lire plus
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- box -->
+        <!-- box -->
+        <div class="box">
+          <img src="images/douala.jpg" alt="" />
+          <div class="content">
+            <div>
+              <h4>Douala</h4>
+              <div>
+                <p>
+                  Douala est la plus grande ville du Cameroun, située sur la
+                  côte atlantique du pays, dans la région du Littoral. Elle est
+                  considérée comme la capitale économique du Cameroun, avec un
+                  port de commerce en eau profonde.
+                </p>
+                <p id="more-text-2" style="display: none">
+                  La ville est connue pour son dynamisme, sa vie nocturne animée
+                  et sa richesse culturelle. Les visiteurs peuvent explorer le
+                  marché coloré de Douala,où ils peuvent trouver une variété de
+                  produits locaux
+                </p>
+                <button class="read-more-btn" data-target="more-text-2">
+                  Lire plus
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- box -->
+        <!-- box -->
+        <div class="box">
+          <img src="images/garoua.jpg" alt="" />
+          <div class="content">
+            <div>
+              <h4>Garoua</h4>
+              <p>
+                Garoua est une ville située dans la région du Nord du Cameroun,
+                connue pour son dynamisme et sa culture riche et diversifiée.
+              </p>
+              <p id="more-text-3" style="display: none">
+                La ville est entourée d'une nature magnifique, avec des parcs
+                nationaux, des cascades et des paysages à couper le souffle.
+              </p>
+              <button class="read-more-btn" data-target="more-text-3">
+                Lire plus
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- box -->
+        <!-- box -->
+        <div class="box">
+          <img src="images/Yaounde_0.jpg" alt="" />
+          <div class="content">
+            <div>
+              <h4>Yaounde</h4>
+              <p>
+                Yaoundé est la capitale du Cameroun, une ville dynamique située
+                au cœur du pays. La ville est connue pour son atmosphère
+                décontractée et son climat agréable.
+              </p>
+              <p id="more-text-4" style="display: none">
+                Les visiteurs peuvent explorer la ville en visitant des sites
+                tels le musée national du Cameroun, ou encore le marché central
+                de Mokolo.
+              </p>
+              <button class="read-more-btn" data-target="more-text-4">
+                Lire plus
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- box -->
+        <!-- box -->
+        <div class="box">
+          <img src="images/foumbam.jpg" alt="" />
+          <div class="content">
+            <div>
+              <h4>Foumbam</h4>
+              <p>
+                Foumban est une ville située dans la région de l'Ouest du
+                Cameroun, célèbre pour son patrimoine culturel unique et son
+                architecture traditionnelle.
+              </p>
+              <p id="more-text-5" style="display: none">
+                Foumban est également célèbre pour ses tissus traditionnels, ses
+                bijoux et ses instruments de musique, qui sont produits et
+                vendus dans la ville depuis des générations.
+              </p>
+              <button class="read-more-btn" data-target="more-text-5">
+                Lire plus
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- box -->
+        <!-- box -->
+        <div class="box">
+          <img src="images/limbe.jpg" alt="" />
+          <div class="content">
+            <div>
+              <h4>Limbé</h4>
+              <p>
+                Limbé est une ville côtière située dans la région du Sud-Ouest
+                du Cameroun, connue pour son atmosphère détendue, ses plages
+                magnifiques et sa biodiversité exceptionnelle..
+              </p>
+              <p id="more-text-6" style="display: none">
+                Limbé abrite également le jardin botanique de Limbé, qui est
+                l'un des plus anciens jardins botaniques du continent africain
+                et qui offre une variété de plantes rares et exotiques.
+              </p>
+              <button class="read-more-btn" data-target="more-text-6">
+                Lire plus
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- box -->
+      </div>
+    </section>
+
+    <!--  contact section -->
+    <section id="contact">
+      <h1 class="title">Contact</h1>
+      <form action="">
+        <div class="left-right">
+          <div class="left">
+            <label>Nom Complet</label>
+            <input type="text" />
+            <label>Objet</label>
+            <input type="text" />
+            <label>Email</label>
+            <input type="text" />
+            <label>Message</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div class="right">
+            <label>Numéro</label>
+            <input type="text" />
+            <label>Date</label>
+            <input type="text" />
+            <label>Autres Details</label>
+            <input type="text" />
+            <label>Adresse</label>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8104058.277019543!2d7.798485152091138!3d7.347192736763049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10613753703e0f21%3A0x2b03c44599829b53!2sCameroun!5e0!3m2!1sfr!2scm!4v1677003966949!5m2!1sfr!2scm"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <button>Envoyer</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Réalisé par <span>BelDev</span> | Tous les droits sont réservés.</p>
+    </footer>
+
+    <script>
+      var toggle_menu = document.querySelector(".responsive-menu");
+      var menu = document.querySelector(".menu");
+      toggle_menu.onclick = function () {
+        toggle_menu.classList.toggle("active");
+        menu.classList.toggle("responsive");
+      };
+      function toggleText() {
+        var targetId = this.dataset.target;
+        var moreText = document.getElementById(targetId);
+        if (moreText.style.display === "none") {
+          moreText.style.display = "block";
+          this.innerHTML = "Lire moins";
+        } else {
+          moreText.style.display = "none";
+          this.innerHTML = "Lire plus";
+        }
+      }
+      var readMoreBtns = document.querySelectorAll(".read-more-btn");
+      for (var i = 0; i < readMoreBtns.length; i++) {
+        readMoreBtns[i].addEventListener("click", toggleText);
+      }
+    </script>
+  </body>
+</html>
